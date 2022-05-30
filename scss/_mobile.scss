@@ -1,0 +1,148 @@
+@media (max-width: 1200px) {
+    section{
+        .box-container{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .detail{
+        .right-side{
+            .box-container{
+                .box{
+                    display: block;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    section{
+        display: block;
+
+        aside{
+            display: none;
+        }
+
+        .box-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        main{
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+    }
+
+    .detail{
+        display: block;
+        
+        .left-side{
+            width: 100%;
+
+            .video-display{
+                .video-caption{
+                    line-height: 1.5;
+                }
+            }
+        }
+
+        .right-side{
+            width: 100%;
+
+            .box-container{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+
+                .box{   
+                    display: block; 
+                    margin-bottom: .3rem;
+
+                    img{
+                        width: 100%;
+                        margin-bottom: .3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    header{
+        .fa-solid{
+            font-size: 1rem;
+        }
+
+        .fa-microphone{
+            margin-left: .5rem;
+        }
+
+        .fa-magnifying-glass{
+            padding-right:  .3rem;
+        }
+
+        .search{
+            &-box{
+                width: 1rem;
+                border: none;
+                
+
+                input{
+                    display: none;
+                }
+            }
+        }
+
+        .icons{
+            padding-right: 0;
+
+            i{
+                font-size: 1rem;
+                margin: 0 .2rem;
+            }
+        }
+    }
+
+    section{
+        .box-container{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .detail{
+        .left-side{
+            hr{
+                margin: .5rem 0;
+            }
+
+            .tutorial{
+                display: block;
+
+                .oops{
+                    display: none;
+                }
+
+                .tutor-cap{
+                    margin-right: .5rem;
+                    .ohh{
+                        display: block;
+                    }
+
+                    h3{
+                        font-size: .7rem;
+                    }
+                }
+            }
+        }
+        .right-side{
+            .box-container{
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+ul{
+    line-height: 2;
+}
+
+li{
+    list-style-type: none
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: .8rem;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: var(--black);
+    margin: 1rem 0;
+}
