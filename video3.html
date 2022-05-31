@@ -14,7 +14,7 @@
         <header>
 
             <div class="brand">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars side-menu"></i>
                 <i class="fa-solid fa-circle-play"></i>
                 <p>VidMe</p>
             </div>
@@ -33,6 +33,10 @@
                 <i class="fa-solid fa-video"></i>
                 <i class="fa-solid fa-bell"></i>
                 <i class="fa-solid fa-table-cells"></i>
+
+                <div class="avatar-icon">
+                    <img src="./images/cameron.png" class="login">
+                </div>
             </div>
         </header>
 
@@ -40,7 +44,7 @@
             <div class="left-side">
                 <div class="video-display">
                     <video controls>
-                        <source src="./images/video.mp4" type="video/ogg">
+                        <source src="./images/output_free (1).mp4" type="video/ogg">
                     </video>
                     <div class="video-caption">
                         <p class="lang">#Coding #HTML #SCSS #JavaScript</p>
@@ -104,7 +108,7 @@
                 <div class="box-container">
                     <div class="box">
                         <div class="box-showcase">
-                            <a href="new.html"><img src="./images/thumbnail1.png"></a>
+                            <a href="video1.html"><img src="./images/thumbnail1.png"></a>
                         </div>
                         <div class="box-caption">
                             <h5>Best channel that help you to be a web developer</h5>
@@ -115,7 +119,7 @@
     
                     <div class="box">
                         <div class="box-showcase">
-                            <a href="new.html"><img src="./images/thumbnail2.png"></a>
+                            <a href="video2.html"><img src="./images/thumbnail2.png"></a>
                         </div>
                         <div class="box-caption">
                             <h5>Best channel that help you to be a web developer</h5>
@@ -126,7 +130,7 @@
     
                     <div class="box">
                         <div class="box-showcase">
-                            <a href="new.html"><img src="./images/thumbnail3.png"></a>
+                            <a href="video1.html"><img src="./images/thumbnail3.png"></a>
                         </div>
                         <div class="box-caption">
                             <h5>Best channel that help you to be a web developer</h5>
@@ -137,7 +141,7 @@
     
                     <div class="box">
                         <div class="box-showcase">
-                            <a href="new.html"><img src="./images/thumbnail4.png"></a>
+                            <a href="video2.html"><img src="./images/thumbnail4.png"></a>
                         </div>
                         <div class="box-caption">
                             <h5>Best channel that help you to be a web developer</h5>
@@ -148,7 +152,7 @@
     
                     <div class="box">
                         <div class="box-showcase">
-                            <a href="new.html"><img src="./images/thumbnail5.png"></a>
+                            <a href="video1.html"><img src="./images/thumbnail5.png"></a>
                         </div>
                         <div class="box-caption">
                             <h5>Best channel that help you to be a web developer</h5>
@@ -159,7 +163,7 @@
     
                     <div class="box">
                         <div class="box-showcase">
-                            <a href="new.html"><img src="./images/thumbnail6.png"></a>
+                            <a href="video2.html"><img src="./images/thumbnail6.png"></a>
                         </div>
                         <div class="box-caption">
                             <h5>Best channel that help you to be a web developer</h5>
@@ -170,7 +174,7 @@
     
                     <div class="box">
                         <div class="box-showcase">
-                            <a href="new.html"><img src="./images/thumbnail7.png"></a>
+                            <a href="video1.html"><img src="./images/thumbnail7.png"></a>
                         </div>
                         <div class="box-caption">
                             <h5>Best channel that help you to be a web developer</h5>
@@ -181,7 +185,7 @@
     
                     <div class="box">
                         <div class="box-showcase">
-                            <a href="new.html"><img src="./images/thumbnail8.png"></a>
+                            <a href="video2.html"><img src="./images/thumbnail8.png"></a>
                         </div>
                         <div class="box-caption">
                             <h5>Best channel that help you to be a web developer</h5>
@@ -190,7 +194,38 @@
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li><i class="fa-solid fa-house icon"></i><a href="#" class="home">Home</a></li>
+                    <li><i class="fa-solid fa-universal-access"></i><a href="#">Explore</a></li>
+                    <li><i class="fa-solid fa-subscript"></i><a href="#">Subscription</a></li>
+                    <li><i class="fa-solid fa-photo-film"></i><a href="#">Library</a></li>
+                    <li><i class="fa-solid fa-clock-rotate-left"></i><a href="#">History</a></li>
+                    <li><i class="fa-solid fa-video"></i><a href="#">Cast Videos</a></li>
+                    <li><i class="fa-solid fa-play"></i><a href="#">Playlist</a></li>
+                    <li><i class="fa-solid fa-message"></i><a href="#">Messages</a></li>
+                    <li><i class="fa-solid fa-circle-down"></i><a href="#">Show More</a></li>
+                </ul>
+            </div>
+
+            <div class="login-page">
+                <i class="fa-solid fa-times close-btn"></i>
+                <h3>Sign in to VidMe</h3>
+                <div class="form-message"></div>
+
+                <form action="post.php" method="post" name="myForm">
+                    <label for="name">Username or Email
+                        <input type="text" placeholder="Enter Username" id="name" required>
+                    </label>
+                    <label for="name">Password  <span>Forgot password?</span>
+                        <input type="password" placeholder="Enter Password" id="name" required>
+                    </label>
+                    
+                    <button class="submit-btn" type="submit">Sign in</button>
+                </form>
+            </div>
         </div>
     </div>
 
